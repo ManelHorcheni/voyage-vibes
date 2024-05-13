@@ -3,6 +3,7 @@ import { DetailsPostComponent } from '../details-post/details-post.component';
 import { OutletContext } from '@angular/router';
 import { HeaderComponent } from '../site-framework/header/header.component';
 import { FooterComponent } from '../site-framework/footer/footer.component';
+import { RouterOutlet } from '@angular/router';
 
 @Component({
   selector: 'app-post',
@@ -10,7 +11,8 @@ import { FooterComponent } from '../site-framework/footer/footer.component';
   imports: [
     DetailsPostComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    RouterOutlet
 
   ],
   templateUrl: './post.component.html',

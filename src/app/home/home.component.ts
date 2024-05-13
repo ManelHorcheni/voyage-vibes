@@ -3,6 +3,8 @@ import { HeaderComponent} from '../site-framework/header/header.component';
 import { FooterComponent } from '../site-framework/footer/footer.component';
 import { PostComponent } from '../post/post.component';
 import { OutletContext } from '@angular/router';
+import { SearchComponent } from '../search/search.component';
+
 
 @Component({
   selector: 'app-home',
@@ -10,7 +12,8 @@ import { OutletContext } from '@angular/router';
   imports: [
     HeaderComponent,
     FooterComponent,
-    PostComponent
+    PostComponent,
+    SearchComponent
   ],
   templateUrl: './home.component.html',
   styleUrl: './home.component.css'
